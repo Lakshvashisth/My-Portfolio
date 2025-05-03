@@ -1,7 +1,8 @@
 
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa"
 import logo from "../assets/lakshayvashisthlogo.jpg"
-import { FaSquareXTwitter } from "react-icons/fa6"
+// import { FaSquareXTwitter } from "react-icons/fa6"
+
 const Navbar = () => {
   return (
    <nav className="flex items-center justify-between py-6">
@@ -31,12 +32,12 @@ const Navbar = () => {
     arial-label="Instagram">
       <FaInstagram/>
       </a>
-      <a href="https://www.linkedin.com/in/lakshay-vashisth-103b18290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      {/* <a href="https://www.linkedin.com/in/lakshay-vashisth-103b18290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     target="_blank"
     rel="noopener noreferrer"
     arial-label="Twitter">
       <FaSquareXTwitter/>
-      </a>
+      </a> */}
     
     </div>
    
